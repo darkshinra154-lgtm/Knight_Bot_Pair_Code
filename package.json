@@ -1,27 +1,21 @@
 {
-  "name": "knight-bot",
-  "version": "1.0.0",
-  "description": "Knight Bot - WhatsApp Pair Code Generator",
-  "main": "index.js",
-  "type": "module",
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "build": "echo 'No build step required'"
-  },
-  "author": "Mr Unique Hacker",
-  "license": "ISC",
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.21",
-    "awesome-phonenumber": "7.2.0",
-    "body-parser": "^1.20.3",
-    "express": "^4.21.2",
-    "path": "^0.12.7",
-    "phone": "3.1.55",
-    "pino": "9.5.0",
-    "qrcode": "^1.5.4",
-    "qrcode-terminal": "^0.12.0"
-  }
+"name":"sukuna-session-generator",
+"version":"2.0.0",
+"description":"Sukuna Bot - Professional Sub-Bot Session Generator",
+"main":"index.js",
+"type":"module",
+"engines":{"node":">=20.0.0"},
+"scripts":{"start":"node index.js"},
+"author":"Adam (Shadow) & Sukuna Team",
+"license":"ISC",
+"dependencies":{
+"@whiskeysockets/baileys":"npm:wileys@latest",
+"awesome-phonenumber":"^7.4.0",
+"body-parser":"^1.20.3",
+"express":"^5.2.1",
+"mongoose":"^9.9.4",
+"pino":"^8.21.0",
+"qrcode":"^1.5.4",
+"dotenv":"^16.4.5"
+}
 }
